@@ -1,0 +1,76 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	background: #eee;
+	color: #666;
+	background-image: url("../image/bg-login.jpg");
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+.login-container {
+	height: 100vh;
+	width: 100%;
+}
+
+.login-form {
+	max-width: 100%;
+	width: 370px;
+	padding: 15px;
+	margin: auto;
+	border-radius: 20px;
+	opacity: 70%;
+}
+
+.form-control {
+	font-size: 15px;
+	min-height:  48px;
+	font-weight: 500;
+}
+
+.form-control:focus {
+	border-color: #737c88;
+	box-shadow: 0 0 0 0.2rem rgba(114, 61, 190, .25);
+}
+
+.forgot-link {
+	font-size: 13px;
+}
+
+.forgot-link label {
+	margin-bottom: 0;
+}
+
+.login-form a{
+	text-decoration: none;
+	color: #666;
+}
+
+.login-form:hover {
+	color: #737c88;
+}
+
+.btn-custom {
+	background: #737c88;
+	border-color: #737c88;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	min-height: 48px;
+}
+
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus {
+	background: #54229d;
+	border-color: #54229d;
+	color: #fff;
+}
+
+.btn-custom:focus {
+	box-shadow: 0 0 0 0.2rem rgba(114, 61, 190, .25);
+}
